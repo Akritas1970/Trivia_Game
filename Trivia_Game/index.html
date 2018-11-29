@@ -1,0 +1,61 @@
+<!doctype html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8" />
+            <title>Awe-inspiring Trivia Game</title>
+            
+
+            <!--- Reset CSS file--->
+            <link rel="stylesheet" href = "assets/css/reset.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+           
+            <!--Personalized Styling-->
+            <link rel = "stylesheet" href="assets/css/style.css"> 
+           
+            <!--JQuery link-->   
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            
+        </head>
+        <body>
+            <h1>
+                Welcome to the Awe-inspiring Trivia Game!!
+            </h1>
+
+            <div class = "instructions">
+                <h3>
+                    INSTRUCTIONS:
+                </h3>
+                <p>
+                    How to play:  Click on the start button.  You will be asked a series of questions,<br>
+                    and be given four possible answer s.  Try to choose the right one.  You have 2 minutes<br>
+                    to complete this quiz.  Good luck!.
+                </p>
+                <button id = "begin"  type= "button" onclick="document.getElementById('questionArea').style.display='block'";>Click to Start</button>
+            </div>
+
+            <div>
+                <div id = "time">
+                    Time Remaining: 
+                </div>
+            </div>
+            <div id = "questionArea">
+                    <div id = "question"></div>
+                    <input class = "answer" type="radio" name="name"> Jack<br>
+                    <input class = "answer" type="radio" name="name"> Spongebob<br>
+                    <input class = "answer" type="radio" name="name"> The Knights who say "NEE!"<br>
+                    <input class = "answer" type="radio" name="name">Sir Lancelot<br>
+                    
+
+
+            </div>
+
+            
+           
+            <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+        </body>

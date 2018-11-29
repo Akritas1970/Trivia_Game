@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    
+  }
+
+body {
+    background-image: url(https://media.moddb.com/cache/images/games/1/16/15544/thumb_620x2000/papyrus.png); 
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    overflow: auto;
+    clear: both;
+}
+
+h1 {
+    padding: 10px;
+    background-color: burlywood;
+    color: brown;
+}
+
+h3 {
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    color: saddlebrown;
+}
+
+#begin {
+    background-color: peru;
+    color: saddlebrown;
+}
+
+#time {
+    size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    clear: both;
+    text-align: center;
+    
+}
+
+#questionArea {
+    padding: 20px;
+    margin-top: 20px;
+    visibility: hidden;
+}
